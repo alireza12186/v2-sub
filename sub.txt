@@ -1,3 +1,146 @@
-https://ggggggggggggggggdfg.com
-https://google.com
-jgljkfg
+"1.0.0.1",
+"1.1.1.1",
+"1.12.12.12",
+"1.2.4.8",
+"101.226.4.6",
+"104.16.132.229",
+"104.16.133.229",
+"104.16.248.249",
+"104.16.249.249",
+"114.114.114.110",
+"114.114.114.114",
+"114.114.114.119",
+"114.114.115.110",
+"114.114.115.115",
+"114.114.115.119",
+"117.50.10.10",
+"117.50.22.22",
+"117.50.60.30",
+"119.29.29.29",
+"120.53.53.53"
+"120.53.53.53",
+"123.125.81.6",
+"140.207.198.6",
+"149.112.112.112",
+"180.184.1.1",
+"180.184.2.2",
+"180.76.76.76",
+"2001:4860:4860::8844"
+"2001:4860:4860::8888",
+"210.2.4.8",
+"218.30.118.6",
+"223.5.5.5",
+"223.6.6.6",
+"2400:3200::1",
+"2400:3200:baba::1"
+"2400:3200:baba::1",
+"2400:7fc0:849e:200::4",
+"2400:7fc0:849e:200::8",
+"2400:da00::6666",
+"2402:4e00:1::",
+"2402:4e00::",
+"2404:c2c0:85d8:901::4",
+"2404:c2c0:85d8:901::8",
+"2606:4700:4700::1001"
+"2606:4700:4700::1111",
+"2606:4700::6810:84e5",
+"2606:4700::6810:85e5"
+"2606:4700::6810:f8f9",
+"2606:4700::6810:f9f9"
+"2620:fe::9"
+"2620:fe::fe",
+"2a02:6b8:0:1::feed:0ff"
+"2a02:6b8::feed:0ff",
+"52.80.52.52",
+"52.80.60.30"
+"52.80.66.66",
+"77.88.8.1",
+"77.88.8.8",
+"8.8.4.4",
+"8.8.8.8",
+"9.9.9.9",
+"address": "223.5.5.5",
+"address": "82.38.31.191",
+"auth": "noauth",
+"cloudflare-dns.com": [
+"common.dot.dns.yandex.net": [
+"concurrency": -1,
+"destOverride": [
+"dns": {
+"dns-module"
+"dns.alidns.com": [
+"dns.cloudflare.com": [
+"dns.google": [
+"dns.quad9.net": [
+"domain": [
+"domain:360.cn",
+"domain:365web.ir"
+"domain:365web.ir",
+"domain:365web.top",
+"domain:alidns.com",
+"domain:doh.pub",
+"domain:dot.pub",
+"domain:googleapis.cn": "googleapis.com",
+"domain:onedns.net"
+"domainStrategy": "IPOnDemand",
+"domainStrategy": "UseIP"
+"domains": [
+"domestic-dns"
+"dot.pub": [
+"enabled": false
+"enabled": true,
+"fakedns"
+"geoip:ir"
+"geosite:private"
+"header": {
+"hosts": {
+"http",
+"inboundTag": [
+"inbounds": [
+"ip": [
+"level": 8,
+"log": {
+"loglevel": "warning"
+"method": "chacha20-ietf-poly1305",
+"mux": {
+"network": "tcp",
+"one.one.one.one": [
+"ota": false,
+"outboundTag": "direct",
+"outboundTag": "proxy",
+"outbounds": [
+"password": "k1dBOmOB4oqi7Ump37a1bQ",
+"port": 1080,
+"port": 8080
+"protocol": "blackhole",
+"protocol": "freedom",
+"protocol": "shadowsocks",
+"protocol": "socks",
+"remarks": "🇳🇱 ShatakVPN 575662",
+"response": {
+"routeOnly": false
+"routing": {
+"rules": [
+"servers": [
+"settings": {
+"skipFallback": true,
+"sniffing": {
+"streamSettings": {
+"tag": "block"
+"tag": "direct"
+"tag": "dns-module"
+"tag": "domestic-dns"
+"tag": "proxy"
+"tag": "socks"
+"tcpSettings": {
+"tls",
+"type": "field"
+"type": "http"
+"type": "none"
+"udp": true,
+"userLevel": 8
+]
+],
+{
+}
+},
