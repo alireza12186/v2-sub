@@ -1,1 +1,35 @@
+name: Build Subscription
+
+on:
+  push:
+    paths:
+      - "raw.txt"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Generate cleaned subscription
+      run: |
+        # حذف فاصله‌ها و خالی‌ها
+        sed -e 's/^[ \t]*//' -e '/^$/d' raw.txt > temp1.txt
+        
+        # حذف لینک‌های تکراری
+        sort -u temp1.txt > sub.txt
+
+    - name: Generate Base64 subscription
+      run: |
+        base64 -w0 sub.txt > sub-base64.txt
+
+    - name: Commit & Push results
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "GitHub Actions"
+        git add sub.txt sub-base64.txt
+        git commit -m "Auto-build subscription" || echo "No changes"
+        git push
 
